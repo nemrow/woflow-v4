@@ -7,9 +7,9 @@ var es            = require('event-stream');
 var source        = require('vinyl-source-stream')
 
 var allSassFiles = [
-  "src/background/styles/*.scss",
-  "src/iframe/styles/*.scss",
-  "src/injector/styles/*.scss"
+  "src/background/styles/**/*.scss",
+  "src/iframe/styles/**/*.scss",
+  "src/injector/styles/**/*.scss"
 ];
 
 var rootSassFiles = [
@@ -19,9 +19,9 @@ var rootSassFiles = [
 ]
 
 var allJsFiles = [
-  "src/background/js/*.js",
-  "src/iframe/js/*.js",
-  "src/injector/js/*.js"
+  "src/background/js/**/*.js",
+  "src/iframe/js/**/*.js",
+  "src/injector/js/**/*.js"
 ]
 
 var rootJsFiles = [

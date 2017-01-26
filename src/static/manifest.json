@@ -13,12 +13,13 @@
     "storage"
   ],
   "background" : {
-    "scripts" : ["background.js"]
+    "scripts" : ["js/background.js"]
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["injector.js"],
+      "js": ["js/injector.js"],
+      "css": ["styles/injector.css"],
       "all_frames": true
     }
   ],

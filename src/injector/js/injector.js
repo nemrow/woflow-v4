@@ -1,1 +1,2 @@
-import "./main";
+require("./init");
+require("./listeners/storageListener");

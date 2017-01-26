@@ -1,1 +1,2 @@
-import "./main"
+require("./listeners/iconClickListener");
+require("./init");
